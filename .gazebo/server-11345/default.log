@@ -1,0 +1,20 @@
+Gazebo multi-robot simulator, version 7.16.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1589836709 569740361) [Msg] Waiting for master.
+(1589836709 572415624) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1589836709 572535458) [Msg] Publicized address: 172.31.6.141
+(1589836716 489088471) Init world[default]
+(1589836716 928182205) applying Gaussian noise model with mean 0, stddev 0.004, bias 0
+(1589836717 944360730) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1589836719 221514541) [hector_quadrotor_controller_gazebo] Using ground truth from Gazebo as state input for control
+(1589836719 222099735) [hector_quadrotor_controller_gazebo] Using ground truth from Gazebo as imu input for control
+(1589836719 958871997) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1589836719 961565307) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1589836719 969584306) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1589836719 972742702) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1589836720 204859215) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/pose/local/info, deleting message. This warning is printed only once.
+(1589836720 775366465) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.

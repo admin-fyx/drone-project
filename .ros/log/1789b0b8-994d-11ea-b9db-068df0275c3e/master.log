@@ -1,0 +1,306 @@
+[rosmaster.main][INFO] 2020-05-18 21:18:20,545: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-05-18 21:18:20,546: Starting ROS Master Node
+[xmlrpc][INFO] 2020-05-18 21:18:20,546: XML-RPC server binding to :::11311
+[xmlrpc][INFO] 2020-05-18 21:18:20,547: binding ipv6 xmlrpc socket to('::', 11311)
+[xmlrpc][INFO] 2020-05-18 21:18:20,547: bound to ('::', 11311)
+[xmlrpc][INFO] 2020-05-18 21:18:20,547: Started XML-RPC server [http://rosdscomputer:11311/]
+[rosmaster.master][INFO] 2020-05-18 21:18:20,547: Master initialized: port[11311], uri[http://rosdscomputer:11311/]
+[xmlrpc][INFO] 2020-05-18 21:18:20,547: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-05-18 21:18:20,586: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:20,587: +PARAM [/roslaunch/uris/host_rosdscomputer__43213] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:21,880: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:21,880: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:21,880: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:22,501: +SERVICE [/rosout/get_loggers] /rosout http://rosdscomputer:38593/
+[rosmaster.master][INFO] 2020-05-18 21:18:22,502: +SERVICE [/rosout/set_logger_level] /rosout http://rosdscomputer:38593/
+[rosmaster.master][INFO] 2020-05-18 21:18:22,510: +SUB [/clock] /rosout http://rosdscomputer:38593/
+[rosmaster.master][INFO] 2020-05-18 21:18:22,511: +PUB [/rosout_agg] /rosout http://rosdscomputer:38593/
+[rosmaster.master][INFO] 2020-05-18 21:18:22,515: +SUB [/rosout] /rosout http://rosdscomputer:38593/
+[rosmaster.master][INFO] 2020-05-18 21:18:29,392: +PARAM [/roslaunch/uris/host_rosdscomputer__35807] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,398: +PARAM [/controller/twist/angular/z/k_p] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,398: +PARAM [/quadrotor_propulsion/k_m] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/twist/linear/z/time_constant] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/quadrotor_aerodynamics/C_mxy] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/twist/angular/xy/time_constant] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/quadrotor_propulsion/k_t] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/twist/angular/z/k_d] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/quadrotor_propulsion/beta_m] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/quadrotor_propulsion/J_M] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/twist/angular/z/k_i] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/quadrotor_propulsion/CT2s] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/imu_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/motor/type] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/pose/xy/limit_output] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/pose/xy/k_i] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/twist/linear/xy/k_p] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/twist/linear/xy/time_constant] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,399: +PARAM [/controller/pose/type] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/twist/linear/xy/limit_output] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/base_link_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/quadrotor_aerodynamics/C_wz] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/pose/xy/k_d] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/twist/limits/torque/xy] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/twist/linear/xy/k_d] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/pose/yaw/limit_output] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/twist/linear/xy/k_i] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/pose/xy/k_p] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/pose/z/k_d] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/quadrotor_propulsion/Psi] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/quadrotor_propulsion/alpha_m] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/pose/z/k_p] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/controller/twist/type] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,400: +PARAM [/quadrotor_propulsion/CT1s] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/pose/z/k_i] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/twist/linear/z/limit_output] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/ground_truth_to_tf/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/state_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/ground_truth_to_tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/world_frame] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/quadrotor_propulsion/R_A] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/twist/angular/xy/k_d] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/robot_state_publisher/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/twist/linear/z/k_d] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/quadrotor_propulsion/CT0s] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/twist/linear/z/k_i] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/twist/angular/xy/k_i] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/twist/limits/torque/z] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/pose/yaw/k_p] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,401: +PARAM [/controller/pose/z/limit_output] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/twist/angular/z/limit_output] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/twist/linear/z/k_p] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/twist/angular/xy/k_p] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/quadrotor_propulsion/l_m] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/pose/yaw/k_i] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/quadrotor_aerodynamics/C_wxy] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/twist/angular/z/time_constant] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/pose/yaw/k_d] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/ground_truth_to_tf/odometry_topic] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/quadrotor_aerodynamics/C_mz] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/twist/limits/load_factor] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,402: +PARAM [/controller/twist/limits/force/z] by /roslaunch
+[rosmaster.master][INFO] 2020-05-18 21:18:29,523: +PUB [/rosout] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:29,531: +SERVICE [/gazebo/get_loggers] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:29,531: +SERVICE [/gazebo/set_logger_level] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:29,567: +SUB [/clock] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:29,568: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:29,570: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:31,939: +PUB [/rosout] /robot_state_publisher http://rosdscomputer:39965/
+[rosmaster.master][INFO] 2020-05-18 21:18:31,943: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://rosdscomputer:39965/
+[rosmaster.master][INFO] 2020-05-18 21:18:31,951: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://rosdscomputer:39965/
+[rosmaster.master][INFO] 2020-05-18 21:18:31,977: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/']
+[rosmaster.master][INFO] 2020-05-18 21:18:31,977: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:31,981: +SUB [/clock] /robot_state_publisher http://rosdscomputer:39965/
+[rosmaster.master][INFO] 2020-05-18 21:18:31,984: +PUB [/tf] /robot_state_publisher http://rosdscomputer:39965/
+[rosmaster.master][INFO] 2020-05-18 21:18:31,985: +PUB [/tf_static] /robot_state_publisher http://rosdscomputer:39965/
+[rosmaster.master][INFO] 2020-05-18 21:18:31,993: +SUB [/joint_states] /robot_state_publisher http://rosdscomputer:39965/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,072: +PUB [/rosout] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,073: +SERVICE [/ground_truth_to_tf/get_loggers] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,074: +SERVICE [/ground_truth_to_tf/set_logger_level] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,078: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/']
+[rosmaster.master][INFO] 2020-05-18 21:18:32,078: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:32,106: +SUB [/clock] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,191: +PUB [/tf] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,228: +SUB [/ground_truth/state] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,239: +PUB [/ground_truth_to_tf/pose] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,251: +PUB [/ground_truth_to_tf/euler] /ground_truth_to_tf http://rosdscomputer:45195/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,856: +PUB [/rosout] /controller_spawner http://rosdscomputer:44269/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,865: +SUB [/clock] /controller_spawner http://rosdscomputer:44269/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,871: +SERVICE [/controller_spawner/get_loggers] /controller_spawner http://rosdscomputer:44269/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,880: +SERVICE [/controller_spawner/set_logger_level] /controller_spawner http://rosdscomputer:44269/
+[rosmaster.master][INFO] 2020-05-18 21:18:32,880: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/', 'http://rosdscomputer:44269/']
+[rosmaster.master][INFO] 2020-05-18 21:18:32,882: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/', 'http://rosdscomputer:44269/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:35,233: +PUB [/rosout] /spawn_robot http://rosdscomputer:40299/
+[rosmaster.master][INFO] 2020-05-18 21:18:35,237: +SUB [/clock] /spawn_robot http://rosdscomputer:40299/
+[rosmaster.master][INFO] 2020-05-18 21:18:35,243: +SERVICE [/spawn_robot/get_loggers] /spawn_robot http://rosdscomputer:40299/
+[rosmaster.master][INFO] 2020-05-18 21:18:35,244: +SERVICE [/spawn_robot/set_logger_level] /spawn_robot http://rosdscomputer:40299/
+[rosmaster.master][INFO] 2020-05-18 21:18:35,284: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/', 'http://rosdscomputer:44269/', 'http://rosdscomputer:40299/']
+[rosmaster.master][INFO] 2020-05-18 21:18:35,285: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/', 'http://rosdscomputer:44269/', 'http://rosdscomputer:40299/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:36,253: +PUB [/clock] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,256: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,259: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,263: +SERVICE [/gazebo/delete_model] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,266: +SERVICE [/gazebo/delete_light] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,272: +SERVICE [/gazebo/get_model_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,279: +SERVICE [/gazebo/get_model_state] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,283: +SERVICE [/gazebo/get_world_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,283: +SERVICE [/gazebo/get_joint_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,284: +SERVICE [/gazebo/get_link_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,287: +SERVICE [/gazebo/get_link_state] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,287: publisherUpdate[/clock] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:36,288: publisherUpdate[/clock] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:36,288: publisherUpdate[/clock] -> http://rosdscomputer:41325/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:36,289: publisherUpdate[/clock] -> http://rosdscomputer:41325/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:36,289: publisherUpdate[/clock] -> http://rosdscomputer:39965/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:36,290: publisherUpdate[/clock] -> http://rosdscomputer:39965/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:36,290: publisherUpdate[/clock] -> http://rosdscomputer:45195/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:36,291: publisherUpdate[/clock] -> http://rosdscomputer:45195/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:36,291: publisherUpdate[/clock] -> http://rosdscomputer:44269/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:36,292: +SERVICE [/gazebo/get_light_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,293: publisherUpdate[/clock] -> http://rosdscomputer:44269/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:36,293: publisherUpdate[/clock] -> http://rosdscomputer:40299/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:36,295: publisherUpdate[/clock] -> http://rosdscomputer:40299/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:36,295: +SERVICE [/gazebo/set_light_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,296: +SERVICE [/gazebo/get_physics_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,299: +PUB [/gazebo/link_states] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,303: +PUB [/gazebo/model_states] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,303: +SERVICE [/gazebo/set_link_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,307: +SERVICE [/gazebo/set_physics_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,312: +SERVICE [/gazebo/set_model_state] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,313: +SERVICE [/gazebo/set_model_configuration] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,314: +SERVICE [/gazebo/set_joint_properties] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,319: +SERVICE [/gazebo/set_link_state] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,340: +SUB [/gazebo/set_link_state] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,349: +SUB [/gazebo/set_model_state] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,355: +SERVICE [/gazebo/pause_physics] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,359: +SERVICE [/gazebo/unpause_physics] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,360: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,363: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,364: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,365: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,366: +SERVICE [/gazebo/reset_simulation] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:36,367: +SERVICE [/gazebo/reset_world] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:37,946: +SERVICE [/set_camera_info] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:37,952: -SUB [/clock] /spawn_robot http://rosdscomputer:40299/
+[rosmaster.master][INFO] 2020-05-18 21:18:37,953: -PUB [/rosout] /spawn_robot http://rosdscomputer:40299/
+[rosmaster.master][INFO] 2020-05-18 21:18:37,953: -SERVICE [/spawn_robot/set_logger_level] /spawn_robot rosrpc://rosdscomputer:33485
+[rosmaster.master][INFO] 2020-05-18 21:18:37,955: -SERVICE [/spawn_robot/get_loggers] /spawn_robot rosrpc://rosdscomputer:33485
+[rosmaster.master][ERROR] 2020-05-18 21:18:37,960: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2020-05-18 21:18:37,996: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/', 'http://rosdscomputer:44269/']
+[rosmaster.master][INFO] 2020-05-18 21:18:37,996: publisherUpdate[/rosout] -> http://rosdscomputer:38593/ ['http://rosdscomputer:41325/', 'http://rosdscomputer:39965/', 'http://rosdscomputer:45195/', 'http://rosdscomputer:44269/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2020-05-18 21:18:38,237: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2020-05-18 21:18:38,237: +PUB [/camera/rgb/image_raw/compressedDepth] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,238: +PUB [/scan] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,239: +SERVICE [/camera/rgb/image_raw/compressedDepth/set_parameters] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,240: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_descriptions] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,240: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_updates] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,243: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,243: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,244: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,244: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,245: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,246: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,295: +PUB [/sonar_height] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,373: +PUB [/camera/rgb/image_raw/compressed] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,374: +SERVICE [/camera/rgb/image_raw/compressed/set_parameters] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,375: +PUB [/camera/rgb/image_raw/compressed/parameter_descriptions] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,376: +PUB [/camera/rgb/image_raw/compressed/parameter_updates] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,379: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,380: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,381: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,382: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,382: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,383: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,586: +PUB [/camera/rgb/image_raw] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,587: +PUB [/raw_imu] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,588: +SERVICE [/raw_imu/calibrate] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,589: +SERVICE [/raw_imu/set_accel_bias] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,589: +SERVICE [/raw_imu/set_rate_bias] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,624: +PUB [/camera/rgb/image_raw/theora] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,625: +SERVICE [/camera/rgb/image_raw/theora/set_parameters] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,625: +PUB [/camera/rgb/image_raw/theora/parameter_descriptions] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,626: +PUB [/camera/rgb/image_raw/theora/parameter_updates] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,628: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,629: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,630: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,630: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,631: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,632: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,632: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,633: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:38,633: +PUB [/camera/rgb/camera_info] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,634: +PUB [/camera/depth/points] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,635: +PUB [/camera/depth/image_raw] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,636: +PUB [/camera/depth/camera_info] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,700: +PUB [/pressure_height] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,701: +PUB [/altimeter] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,704: +PUB [/magnetic] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,707: +PUB [/fix] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,708: +PUB [/fix_velocity] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,811: +PUB [/ground_truth/state] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:38,897: publisherUpdate[/ground_truth/state] -> http://rosdscomputer:45195/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:38,898: publisherUpdate[/ground_truth/state] -> http://rosdscomputer:45195/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2020-05-18 21:18:38,970: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2020-05-18 21:18:39,225: +SUB [/motor_status] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,226: +PUB [/command/wrench] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,227: +PUB [/command/motor] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,304: +SERVICE [/controller_manager/list_controllers] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,305: +SERVICE [/controller_manager/list_controller_types] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,306: +SERVICE [/controller_manager/load_controller] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,307: +SERVICE [/controller_manager/unload_controller] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,307: +SERVICE [/controller_manager/switch_controller] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,308: +SERVICE [/controller_manager/reload_controller_libraries] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,476: +PUB [/quadro/trigger] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,493: +SUB [/command/motor] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,499: +SUB [/motor_pwm] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,500: +PUB [/propulsion/wrench] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,501: +PUB [/supply] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,502: +PUB [/motor_status] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,599: publisherUpdate[/motor_status] -> http://rosdscomputer:41325/ ['http://rosdscomputer:41325/']
+[rosmaster.master][INFO] 2020-05-18 21:18:39,599: publisherUpdate[/motor_status] -> http://rosdscomputer:41325/ ['http://rosdscomputer:41325/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-18 21:18:39,742: +SUB [/command/twist] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,747: +SUB [/cmd_vel] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,748: +SERVICE [/engage] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,750: +SERVICE [/shutdown] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,755: +SUB [/wind] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,757: +PUB [/aerodynamics/wrench] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,802: +SERVICE [/gazebo/set_parameters] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,807: +PUB [/gazebo/parameter_descriptions] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,809: +PUB [/gazebo/parameter_updates] /gazebo http://rosdscomputer:41325/
+[rosmaster.master][INFO] 2020-05-18 21:18:39,862: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,863: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,866: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,867: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,869: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,871: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,873: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,878: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,880: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,884: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,886: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,887: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,888: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,890: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,893: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,900: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,902: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,904: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,908: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,909: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,910: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,911: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,914: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,920: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,924: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,926: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,929: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,930: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,931: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2020-05-18 21:18:39,932: +PARAM [/gazebo/max_contacts] by /gazebo

@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2020-05-18 21:18:35,130: init_node, name[/spawn_robot], pid[4332]
+[xmlrpc][INFO] 2020-05-18 21:18:35,130: XML-RPC server binding to :::0
+[xmlrpc][INFO] 2020-05-18 21:18:35,131: binding ipv6 xmlrpc socket to('::', 0)
+[xmlrpc][INFO] 2020-05-18 21:18:35,131: bound to ('::', 40299)
+[xmlrpc][INFO] 2020-05-18 21:18:35,131: Started XML-RPC server [http://rosdscomputer:40299/]
+[rospy.init][INFO] 2020-05-18 21:18:35,131: ROS Slave URI: [http://rosdscomputer:40299/]
+[rospy.impl.masterslave][INFO] 2020-05-18 21:18:35,131: _ready: http://rosdscomputer:40299/
+[rospy.registration][INFO] 2020-05-18 21:18:35,132: Registering with master node http://master:11311
+[xmlrpc][INFO] 2020-05-18 21:18:35,132: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-05-18 21:18:35,231: registered with master
+[rospy.rosout][INFO] 2020-05-18 21:18:35,232: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-05-18 21:18:35,234: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-05-18 21:18:35,236: initializing /clock core topic
+[rospy.simtime][INFO] 2020-05-18 21:18:35,238: connected to core topic /clock
+[rosout][INFO] 2020-05-18 21:18:35,245: Loading model XML from ros parameter
+[rosout][INFO] 2020-05-18 21:18:35,248: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2020-05-18 21:18:35,490: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-05-18 21:18:36,310: topic[/clock] adding connection to [http://rosdscomputer:41325/], count 0
+[rosout][INFO] 2020-05-18 21:18:36,465: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2020-05-18 21:18:37,945: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2020-05-18 21:18:37,945: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-05-18 21:18:37,955: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-05-18 21:18:37,956: topic[/clock] removing connection to http://rosdscomputer:41325/
+[rospy.impl.masterslave][INFO] 2020-05-18 21:18:37,956: atexit
